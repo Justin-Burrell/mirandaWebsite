@@ -1,0 +1,160 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: #f6f7f9;
+}
+
+#navbar {
+    background-color: #f6f7f9;
+    color: #ffaad4;
+    position: sticky;
+    top: 0;
+}
+
+#navbar_options { 
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: rgb(0, 0, 0) solid 2px;
+    height: 100px;
+    justify-content: space-around;
+}
+
+#navbar_title {
+    text-decoration: none;
+    font-style: italic;
+    padding-top: 5px;
+    font-size: 80px;
+    font-weight: 700;
+    text-shadow: 2px 2px black;
+}
+
+li {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Arial";
+}
+
+.bar a {
+    display: flex;
+    text-decoration: none;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 30px;
+    height: 100px;
+}
+
+.bar a:hover {
+    /* opacity: 0.5; */
+    border-top: 4px solid #3a4664;
+}
+
+#main_section {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+#welcometext{
+    margin: 5px;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 3px solid black;
+    color: #ffffff;
+    background-image: url(/images/homepicture.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* padding: 50px 20px 300px; */
+}
+
+#welcometext h1 {
+    padding: 200px;
+    text-shadow: 4px 4px grey;
+    font-weight: 200;
+    text-align: center;
+    font-size: 80px;
+}
+
+#birthdayheader h1{
+    text-align: center;
+}
+
+#birthdaystatement {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#birthdaytext p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#acronym {
+    /* text-align: center; */
+    padding: 10px;
+    margin-left: 100px;
+}
+
+#acronym p::first-letter{
+    font-size: 100px;
+    line-height: 1;
+    font-weight: bold;
+    color: #ffaad4;
+    text-shadow: grey .05em .05em;
+    margin-right: 9px;
+}
+
+#acronym p{
+    font-size: 55px;
+}
+
+  
+#photogallery { 
+    text-align: center;
+ }
+
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: space-around;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    padding: 30px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    vertical-align: middle;
+  }
+
+  #farewelltext p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    color: #3a4664;
+    text-align: center;
+}
+
+#farewellheader h1{
+    text-align: center;
+    color: #ffaad4;
+    font-size: 50px;
+    font-weight: bold;
+}
+ 
